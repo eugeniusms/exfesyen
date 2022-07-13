@@ -14,7 +14,7 @@ const Button = (props) => {
                 </button> 
             }
             { props.preset == "transparent" && 
-                <button className="hover:text-creamy hover:px-4 transition-all ease-out duration-300">
+                <button className="text-xs lg:text-lg hover:text-creamy hover:px-4 transition-all ease-out duration-300">
                     { props.children }
                 </button>
             }
