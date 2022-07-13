@@ -6,6 +6,7 @@ import Header from './components/Header';
 import React from 'react';
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
+import { ShoppingCartIcon } from '@heroicons/react/outline';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
               <Button preset="submit">Accept</Button>
             </div>
           </Card> */}
+          <ShoppingCartIcon className="w-32 h-32" />
           <Header>
             Coming Soon!
           </Header>
