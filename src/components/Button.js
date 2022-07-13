@@ -1,6 +1,8 @@
+import React from "react";
+
 const Button = () => {
     return (
-        <button>HALLO</button>
+        <button className="bg-sky-500/100">HALLO</button>
     )
 }
 
