@@ -4,7 +4,7 @@ import Button from "../Button";
 const Navbar = () => {
     return (
         <div className="fixed w-full">
-            <div className="flex justify-between bg-latteDark shadow-lg rounded-b-xl py-4">
+            <div className="flex justify-between bg-latteDark shadow-lg py-4">
                 <div className="pl-12">
                 <Button preset="transparent">Exfesyen</Button>
                 </div>

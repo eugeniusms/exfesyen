@@ -4,7 +4,7 @@ import { CameraIcon, LinkIcon, GlobeIcon, AdjustmentsIcon } from "@heroicons/rea
 
 const Footer = () => {
     return (
-        <div className="bg-navy rounded-t-2xl py-6 px-12">
+        <div className="bg-navy py-6 px-12">
         <div className="flex justify-center">
             <div className="flex flex-col gap-4">
                 <div className="flex flex-col text-creamy max-w-2xl gap-4">
