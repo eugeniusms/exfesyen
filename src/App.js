@@ -3,11 +3,13 @@ import './App.css';
 import Button from './components/Button';
 import Card from './components/Card';
 import React from 'react';
+import Navbar from './components/Navbar/Navbar';
 
 function App() {
   return (
     <div className="App">
       <div className="bg-creamy">
+      <Navbar />
         <div className="flex justify-center p-6 gap-4">
           <Card>
             <div className="flex justify-center p-6 gap-4">

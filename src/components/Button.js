@@ -13,6 +13,11 @@ const Button = (props) => {
                     { props.children }
                 </button> 
             }
+            { props.preset == "transparent" && 
+                <button className="hover:text-creamy hover:px-4 transition-all ease-out duration-300">
+                    { props.children }
+                </button>
+            }
         </div>
     )
 }
