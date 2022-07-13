@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <div className="bg-creamy">
       <Navbar />
-        <div className="flex justify-center p-6 gap-4 min-h-screen">
+        <div className="flex justify-center py-24 px-6 gap-4 min-h-screen">
           <Card>
             <div className="flex justify-center p-6 gap-4">
               <Button preset="cancel">Cancel</Button>
