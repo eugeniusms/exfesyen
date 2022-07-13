@@ -2,7 +2,7 @@ import React from "react";
 
 const Button = () => {
     return (
-        <button className="bg-sky-500/100">HALLO</button>
+        <button className="bg-armyDark">HALLO</button>
     )
 }
 
