@@ -4,7 +4,7 @@ import { CameraIcon, LinkIcon, GlobeIcon, AdjustmentsIcon } from "@heroicons/rea
 
 const Footer = () => {
     return (
-        <div className="bg-navy py-6 px-12">
+        <div className="flex flex-col bg-navy py-6 px-12 gap-6">
         <div className="flex justify-center">
             <div className="flex flex-col gap-4">
                 <div className="flex flex-col text-creamy max-w-2xl gap-4">
@@ -13,7 +13,7 @@ const Footer = () => {
                 </div>
             </div>
         </div>
-        <div className="flex justify-between">
+        <div className="flex flex-col gap-4 lg:flex-row lg:justify-between lg:justify-center">
             <div className="flex justify-center text-armyLight gap-6">
                 <Button preset="transparent">About Us</Button>
                 <Button preset="transparent">Gallery</Button>
