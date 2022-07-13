@@ -6,9 +6,11 @@ import React from 'react';
 function App() {
   return (
     <div className="App">
-      <div className="flex justify-center p-6 gap-6">
-        <Button preset="cancel">Cancel</Button>
-        <Button preset="submit">Accept</Button>
+      <div className="bg-creamy">
+        <div className="flex justify-center p-6 gap-6">
+          <Button preset="cancel">Cancel</Button>
+          <Button preset="submit">Accept</Button>
+        </div>
       </div>
     </div>
   );
