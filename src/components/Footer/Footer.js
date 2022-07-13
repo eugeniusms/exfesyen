@@ -15,7 +15,9 @@ const Footer = () => {
         </div>
         <div className="flex flex-col gap-4 lg:flex-row lg:justify-between lg:justify-center">
             <div className="flex justify-center text-armyLight gap-6">
-                <Button preset="transparent">About Us</Button>
+                <a href="/about">
+                    <Button preset="transparent">About Us</Button>
+                </a>
                 <Button preset="transparent">Gallery</Button>
                 <Button preset="transparent">Contact</Button>
             </div>
