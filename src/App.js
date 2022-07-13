@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <div className="bg-creamy">
-        <div className="flex justify-center p-6 gap-6">
+        <div className="flex justify-center p-6 gap-4">
           <Button preset="cancel">Cancel</Button>
           <Button preset="submit">Accept</Button>
         </div>
