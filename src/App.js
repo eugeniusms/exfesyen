@@ -7,12 +7,13 @@ import React from 'react';
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
 import { ShoppingCartIcon } from '@heroicons/react/outline';
+import NavbarMobile from './components/Navbar/NavbarMobile';
 
 function App() {
   return (
     <div className="App">
       <div className="bg-creamy">
-      <Navbar />
+      <NavbarMobile />
         <div className="flex justify-center py-24 px-6 gap-4 min-h-screen items-center">
           {/* <Card>
             <div className="flex justify-center p-6 gap-4">
