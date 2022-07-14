@@ -1,14 +1,14 @@
 import React from "react";
 import Button from "../Button";
 import NavbarDesktop from "./NavbarDesktop";
-import NavbarMobile from "./NavbarMobile";
+import NavbarMobileNew from "./NavbarMobileNew";
 
 const Navbar = () => {
     const width = window.innerWidth;
     const breakpoint = 768;
 
     return (
-        width < breakpoint ? <NavbarMobile/> : <NavbarDesktop/>
+        width < breakpoint ? <NavbarMobileNew/> : <NavbarDesktop/>
     )
 }
 

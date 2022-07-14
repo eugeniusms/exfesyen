@@ -23,7 +23,7 @@ const ComingSoon = () => {
               <Button preset="submit">Accept</Button>
             </div>
           </Card> */}
-          <ShoppingCartIcon className="w-32 h-32" />
+          {/* <ShoppingCartIcon className="w-32 h-32" /> */}
           <Header>
             Coming Soon!
           </Header>

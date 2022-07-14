@@ -31,10 +31,13 @@ module.exports = {
       'latteDark': '#CDC2AE',
       'latteLight': '#ECE5C7',
       'navy': '#354259',
+      'oldLace': '#FEFBF4'
     },
     fontFamily: {
       sans: ['Graphik', 'sans-serif'],
       serif: ['Merriweather', 'serif'],
+      'brasley': 'brasley-medium',
+      dm: ['DM Sans', 'sans-serif']
     },
   },
   plugins: [],
