@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import React from 'react';
 import ComingSoon from './pages/comingsoon';
-import NavbarMobile from './components/Navbar/NavbarMobile';
+import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import About from './pages/about';
@@ -12,7 +12,7 @@ function App() {
     <Router>
       <div className="App">
         <div className="bg-oldLace">
-          <NavbarMobile/>
+          <Navbar/>
             <Routes>
               <Route path="/" element={<ComingSoon/>} />
               <Route path="/about" element={<About />} />
