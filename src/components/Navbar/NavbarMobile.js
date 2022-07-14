@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Button from "../Button";
-import { ChevronDoubleUpIcon, MenuAlt3Icon } from "@heroicons/react/outline";
+import { MenuAlt3Icon } from "@heroicons/react/outline";
 import Logo from "../Logo";
 
 const NavbarMobile = () => {
@@ -16,33 +16,32 @@ const NavbarMobile = () => {
 
     return (
         <div>   
-        { mode == "show" && 
+        { mode === "show" && 
             (
-            <div className="flex justify-center font-dm font-bold">
-                <div className="fixed border-b w-5/6 pt-6">
-                    <div className="flex flex-col bg-oldLace py-6">
+            <div className="flex justify-center">
+                <div className="fixed border-b w-5/6">
+                    <div className="flex flex-col bg-oldLace py-6 pt-6">
                         <div className="flex flex-col gap-4">
                             <div className="flex justify-center">
                                 <button className="" onClick={hiddenHandler}>
                                     <Logo className="w-28" />
                                 </button>
                             </div>
-                            <Button preset="transparent">What's New</Button>
-                            <Button preset="transparent">Category</Button>
-                            <Button preset="transparent">Shopping Cart</Button>
-                            <Button preset="transparent">Wishlist</Button>
-                            <Button preset="transparent">Notification</Button>
+                            <Button preset="transparent">Woman</Button>
+                            <Button preset="transparent">Men</Button>
+                            <Button preset="transparent">Search</Button>
+                            <Button preset="transparent">Bag(4)</Button>
                         </div>
                     </div>
                 </div>
             </div>
             )
         }
-        { mode == "hidden" && 
+        { mode === "hidden" && 
             (
-            <div className="flex justify-center font-dm font-bold">
-                <div className="fixed border-b w-5/6 pt-6">
-                    <div className="flex justify-between bg-oldLace py-6">
+            <div className="flex justify-center">
+                <div className="fixed border-b w-5/6">
+                    <div className="flex justify-between bg-oldLace py-6 pt-6">
                         <div className="flex flex-col gap-4">
                             <div className="flex justify-between pt">
                                 <Logo className="w-28"/>
@@ -50,12 +49,12 @@ const NavbarMobile = () => {
                         </div>
                         <div className="flex gap-8">
                             <Button preset="transparent">
-                                <p className="tracking-wider pt-2">
+                                <p className="tracking-wider pt-1">
                                     Bag(4)
                                 </p>
                             </Button>
                             <button onClick={showHandler}>
-                                <MenuAlt3Icon className="w-5 pt"/>
+                                <MenuAlt3Icon className="w-6 pt"/>
                             </button>
                         </div>
                     </div>
