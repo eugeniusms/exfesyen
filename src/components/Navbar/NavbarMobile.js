@@ -3,7 +3,7 @@ import Button from "../Button";
 import { ChevronDoubleUpIcon, MenuAlt3Icon } from "@heroicons/react/outline";
 import Logo from "../Logo";
 
-const NavbarMobileNew = () => {
+const NavbarMobile = () => {
     const [ mode, setMode ] = useState("hidden");
 
     const showHandler = () => {
@@ -67,4 +67,4 @@ const NavbarMobileNew = () => {
     )
 }
 
-export default NavbarMobileNew;
+export default NavbarMobile;
