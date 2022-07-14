@@ -31,7 +31,8 @@ module.exports = {
       'latteDark': '#CDC2AE',
       'latteLight': '#ECE5C7',
       'navy': '#354259',
-      'oldLace': '#FEFBF4'
+      'oldLace': '#FEFBF4',
+      'whiteSmoke': '#DEDEDE'
     },
     fontFamily: {
       sans: ['Graphik', 'sans-serif'],
