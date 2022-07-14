@@ -19,8 +19,8 @@ const NavbarMobile = () => {
         { mode == "show" && 
             (
             <div className="flex justify-center font-dm font-bold">
-                <div className="fixed border-b w-5/6 pt-4">
-                    <div className="flex flex-col bg-oldLace py-4">
+                <div className="fixed border-b w-5/6 pt-6">
+                    <div className="flex flex-col bg-oldLace py-6">
                         <div className="flex flex-col gap-4">
                             <div className="flex justify-center">
                                 <button className="" onClick={hiddenHandler}>
@@ -41,8 +41,8 @@ const NavbarMobile = () => {
         { mode == "hidden" && 
             (
             <div className="flex justify-center font-dm font-bold">
-                <div className="fixed border-b w-5/6 pt-4">
-                    <div className="flex justify-between bg-oldLace py-4">
+                <div className="fixed border-b w-5/6 pt-6">
+                    <div className="flex justify-between bg-oldLace py-6">
                         <div className="flex flex-col gap-4">
                             <div className="flex justify-between pt">
                                 <Logo className="w-28"/>
