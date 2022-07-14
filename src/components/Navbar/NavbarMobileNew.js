@@ -19,7 +19,7 @@ const NavbarMobileNew = () => {
         { mode == "show" && 
             (
             <div className="flex justify-center font-dm font-bold">
-                <div className="fixed border-b-2 w-5/6 pt-4">
+                <div className="fixed border-b w-5/6 pt-4">
                     <div className="flex flex-col bg-oldLace py-4">
                         <div className="flex flex-col gap-4">
                             <div className="flex justify-center">
@@ -41,7 +41,7 @@ const NavbarMobileNew = () => {
         { mode == "hidden" && 
             (
             <div className="flex justify-center font-dm font-bold">
-                <div className="fixed border-b-2 w-5/6 pt-4">
+                <div className="fixed border-b w-5/6 pt-4">
                     <div className="flex justify-between bg-oldLace py-4">
                         <div className="flex flex-col gap-4">
                             <div className="flex justify-between pt">
