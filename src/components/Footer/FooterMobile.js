@@ -82,7 +82,7 @@ const FooterMobile = () => {
                 <div className="flex justify-between border-b-1 w-11/12 flex justify-start py-3 pl-3">
                     <Button preset="transparent">Find Us On</Button>
                     <button onClick={findUsOnHandler}>
-                        { showTheCompany ? <MinusSmIcon className="w-4 items-center"/> : <PlusSmIcon className="w-4 items-center" /> }
+                        { showFindUsOn ? <MinusSmIcon className="w-4 items-center"/> : <PlusSmIcon className="w-4 items-center" /> }
                     </button>
                 </div>
                 {/* FIND US ON ATTRIBUTES */}

@@ -33,7 +33,8 @@ module.exports = {
       'navy': '#354259',
       'oldLace': '#FEFBF4',
       'whiteSmoke': '#DEDEDE',
-      'darkSmoke': '#C3C3C3'
+      'darkSmoke': '#C3C3C3',
+      'black': '#000000'
     },
     fontFamily: {
       sans: ['Graphik', 'sans-serif'],
