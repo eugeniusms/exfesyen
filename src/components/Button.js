@@ -29,7 +29,7 @@ const Button = (props) => {
             { props.preset === "shopnow" &&
                 <div className="flex justify-center">
                     <div className="flex justify-center border-b-1 border-t-1 w-5/6 py-3 items-center gap-2">
-                        <button><p className="text-xs tracking-wide font-black">SHOP NOW</p></button>
+                        <button><p className="text-xs tracking-wide font-black"><a href={props.href}>SHOP NOW</a></p></button>
                         <ArrowRightIcon className="w-4"/>
                     </div>
                 </div>
@@ -37,7 +37,7 @@ const Button = (props) => {
             { props.preset === "sortby-left" &&
                 <div className="flex justify-center pl-6">
                     <div className="flex justify-between border-b-1 border-t-1 py-3 items-center gap-2">
-                        <button><p className="text-xs tracking-wide font-black">{ props.children }</p></button>
+                        <button><p className="text-xs tracking-wide font-black"><a href={props.href}>{ props.children }</a></p></button>
                         <div className="px-9"></div>
                         <FiArrowUpRight className="w-4"/>
                     </div>
@@ -46,7 +46,7 @@ const Button = (props) => {
             { props.preset === "sortby-right" &&
                 <div className="flex justify-center pr-6">
                     <div className="flex justify-between border-b-1 border-t-1 py-3 items-center gap-2">
-                        <button><p className="text-xs tracking-wide font-black">{ props.children }</p></button>
+                        <button><p className="text-xs tracking-wide font-black"><a href={props.href}>{ props.children }</a></p></button>
                         <div className="px-9"></div>
                         <FiArrowUpRight className="w-4"/>
                     </div>

@@ -19,7 +19,11 @@ const HomepageCard = (props) => {
 
                 <div className="flex justify-center">
                     <div className="flex justify-center border-b-1 border-t-1 w-5/6 py-3 items-center gap-2">
-                        <button><p className="text-xs tracking-wide font-black">SHOP NOW</p></button>
+                        <button>
+                            <p className="text-xs tracking-wide font-black">
+                                <a href="/catalog/price">SHOP NOW</a>
+                            </p>
+                        </button>
                         <ArrowRightIcon className="w-4"/>
                     </div>
                 </div>

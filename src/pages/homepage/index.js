@@ -3,10 +3,12 @@ import React from 'react';
 import HomepageCard from '../../components/Homepage/HomepageCard';
 import FirstImage from './images/sweater01.png';
 import SecondImage from './images/hem01.png';
+import Navbar from '../../components/Navbar/Navbar';
 
 const Homepage = () => {
   return (
     <div>
+      <Navbar/>
         <div className="py-24 gap-4 min-h-screen">
             <HomepageCard 
                 category="Sweater"

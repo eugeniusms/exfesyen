@@ -3,10 +3,12 @@ import React from 'react';
 import ArrowRD from '../../components/ArrowRD';
 import Button from '../../components/Button';
 import Content from '../../components/Fonts/Content';
+import Navbar from '../../components/Navbar/Navbar';
 
 const CatalogPage = () => {
   return (
     <div>
+      <Navbar/>
         <div className="py-24 gap-4 min-h-screen">
             <ArrowRD />
             <div className="flex justify-center">
@@ -20,15 +22,7 @@ const CatalogPage = () => {
                   Complimentary 2-3 Day Shipping
                 </Content>
               </div>
-              <Button preset="shopnow"/>
-            </div>
-            {/* READY TO WEAR */}
-            <Header preset="slash">
-              Ready to Wear
-            </Header>
-            <div className="flex justify-between">
-              <Button preset="sortby-left">SORT BY</Button>
-              <Button preset="sortby-right">FILTERS</Button>
+              <Button preset="shopnow" href="/catalog/price" />
             </div>
         </div>
     </div>
