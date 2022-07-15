@@ -5,8 +5,9 @@ import Logo from "../Logo";
 
 const NavbarDesktop = () => {
     return (
-        <div className="flex justify-center">
-            <div className="fixed bg-oldLace border-b-2 w-11/12">
+        <div className="fixed bg-oldLace w-full">
+            <div className="flex justify-center bg-oldLace">
+            <div className="border-b-2 w-11/12">
                 <div className="flex justify-between py-6 items-center">
                     <div className="flex gap-2 pt">
                         <Button preset="transparent">Eng</Button>
@@ -29,6 +30,7 @@ const NavbarDesktop = () => {
                     <button>
                         <MenuAlt3Icon className="w-6 pt"/>
                     </button>
+                </div>
                 </div>
             </div>
         </div>
