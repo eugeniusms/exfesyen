@@ -41,8 +41,9 @@ module.exports = {
       serif: ['Merriweather', 'serif'],
       'brasley': 'brasley-medium',
       dm: ['DM Sans', 'sans-serif'],
-      cormorant : ['Cormorant Garamond', 'serif'],
+      'cormorant' : ['Cormorant Garamond', 'serif'],
       forum: ['Forum', 'cursive'],
+      albert: ['Albert Sans', 'sans-serif']
     },
     borderWidth: {
       DEFAULT: '1.5px',
