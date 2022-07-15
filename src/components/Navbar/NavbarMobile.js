@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Button from "../Button";
-import { MenuAlt3Icon } from "@heroicons/react/outline";
+import { MenuAlt3Icon, XIcon } from "@heroicons/react/outline";
 import Logo from "../Logo";
 
 const NavbarMobile = () => {
@@ -22,14 +22,23 @@ const NavbarMobile = () => {
                 <div className="flex justify-center">
                     <div className="flex flex-col bg-oldLace border-b w-5/6 py-6 pt-6">
                         <div className="flex flex-col gap-4">
-                            <div className="flex justify-center">
-                                <button className="" onClick={hiddenHandler}>
+                            <div className="flex justify-between">
+                                <button></button>
+                                <button className="">
                                     <Logo className="w-28" />
+                                </button>
+                                <button onClick={hiddenHandler}>
+                                    <XIcon className="w-4" />
                                 </button>
                             </div>
                             <Button preset="transparent">Woman</Button>
                             <Button preset="transparent">Men</Button>
+                            <Button preset="transparent">Children</Button>
+                            <Button preset="transparent">Beauty</Button>
                             <Button preset="transparent">Search</Button>
+                            <Button preset="transparent">Gifts</Button>
+                            <Button preset="transparent">Stories</Button>
+                            <Button preset="transparent">Log in</Button>
                             <Button preset="transparent">Bag(4)</Button>
                         </div>
                     </div>
