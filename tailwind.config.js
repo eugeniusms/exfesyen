@@ -40,7 +40,9 @@ module.exports = {
       sans: ['Graphik', 'sans-serif'],
       serif: ['Merriweather', 'serif'],
       'brasley': 'brasley-medium',
-      dm: ['DM Sans', 'sans-serif']
+      dm: ['DM Sans', 'sans-serif'],
+      cormorant : ['Cormorant Garamond', 'serif'],
+      forum: ['Forum', 'cursive'],
     },
     borderWidth: {
       DEFAULT: '1.5px',
