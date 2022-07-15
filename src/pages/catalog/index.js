@@ -27,8 +27,8 @@ const CatalogPage = () => {
               Ready to Wear
             </Header>
             <div className="flex justify-between">
-              <Button preset="sortby">SORT BY</Button>
-              <Button preset="sortby">FILTERS</Button>
+              <Button preset="sortby-left">SORT BY</Button>
+              <Button preset="sortby-right">FILTERS</Button>
             </div>
         </div>
     </div>

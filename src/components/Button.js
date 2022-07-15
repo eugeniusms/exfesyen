@@ -34,11 +34,20 @@ const Button = (props) => {
                     </div>
                 </div>
             }
-            { props.preset === "sortby" &&
-                <div className="flex justify-center px-6">
+            { props.preset === "sortby-left" &&
+                <div className="flex justify-center pl-6">
                     <div className="flex justify-between border-b-1 border-t-1 py-3 items-center gap-2">
                         <button><p className="text-xs tracking-wide font-black">{ props.children }</p></button>
-                        <div className="px-7"></div>
+                        <div className="px-9"></div>
+                        <FiArrowUpRight className="w-4"/>
+                    </div>
+                </div>
+            }
+            { props.preset === "sortby-right" &&
+                <div className="flex justify-center pr-6">
+                    <div className="flex justify-between border-b-1 border-t-1 py-3 items-center gap-2">
+                        <button><p className="text-xs tracking-wide font-black">{ props.children }</p></button>
+                        <div className="px-9"></div>
                         <FiArrowUpRight className="w-4"/>
                     </div>
                 </div>
