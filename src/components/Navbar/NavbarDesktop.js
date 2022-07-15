@@ -19,7 +19,7 @@ const NavbarDesktop = () => {
                         <Button preset="transparent">Beauty</Button>
                     </div>
                     <Logo className="w-36" />
-                    <div className="flex items-center gap-14">
+                    <div className="flex items-center gap-11">
                         <Button preset="transparent">Search</Button>
                         <Button preset="transparent">Gifts</Button>
                         <Button preset="transparent">Stories</Button>
