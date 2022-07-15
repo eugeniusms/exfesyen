@@ -12,11 +12,18 @@ const NavbarDesktop = () => {
                         <Button preset="transparent">Eng</Button>
                         <ChevronDownIcon className="w-6"/>
                     </div>
-                    <div className="flex gap-24 items-center">
+                    <div className="flex items-center gap-14">
                         <Button preset="transparent">Woman</Button>
                         <Button preset="transparent">Men</Button>
-                        <Logo className="w-36" />
+                        <Button preset="transparent">Children</Button>
+                        <Button preset="transparent">Beauty</Button>
+                    </div>
+                    <Logo className="w-36" />
+                    <div className="flex items-center gap-14">
                         <Button preset="transparent">Search</Button>
+                        <Button preset="transparent">Gifts</Button>
+                        <Button preset="transparent">Stories</Button>
+                        <Button preset="transparent">Log in</Button>
                         <Button preset="transparent">Bag(4)</Button>
                     </div>
                     <button>

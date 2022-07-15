@@ -18,7 +18,7 @@ const Button = (props) => {
                 </button> 
             }
             { props.preset === "transparent" && 
-                <button className={"font-dm font-bold lg:text-lg hover:text-creamy hover:px-4 transition-all ease-out duration-300 " + props.className}>
+                <button className={"font-dm font-bold lg:text-lg hover:text-creamy hover:px-4 transition-all ease-out duration-300 " + props.className} onClick={props.onClick}>
                     <p className="text-sm tracking-wide">
                         { props.children }
                     </p>
