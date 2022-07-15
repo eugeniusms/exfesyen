@@ -12,8 +12,8 @@ const ScrollToTop = () => {
     };
 
     return (
-        <div className="flex bg-navy justify-center w-full pt-4 pb-2">
-            <Button preset="transparent" onClick={goToTop}>
+        <div className="flex bg-darkSmoke justify-center w-full pt-2 pb">
+            <Button preset="transparent" className="text-oldLace" onClick={goToTop}>
                 <div className="flex gap-2">
                 <ChevronUpIcon className="w-4"/>
                 Back to Top

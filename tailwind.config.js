@@ -32,7 +32,8 @@ module.exports = {
       'latteLight': '#ECE5C7',
       'navy': '#354259',
       'oldLace': '#FEFBF4',
-      'whiteSmoke': '#DEDEDE'
+      'whiteSmoke': '#DEDEDE',
+      'darkSmoke': '#C3C3C3'
     },
     fontFamily: {
       sans: ['Graphik', 'sans-serif'],
@@ -43,6 +44,7 @@ module.exports = {
     borderWidth: {
       DEFAULT: '1.5px',
       '0': '0',
+      '1': '1px',
       '2': '2px',
       '3': '3px',
       '4': '4px',
