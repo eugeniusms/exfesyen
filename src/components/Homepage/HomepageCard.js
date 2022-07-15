@@ -1,15 +1,14 @@
 import React from "react";
 import { ArrowRightIcon } from "@heroicons/react/outline";
 import Content from "../Fonts/Content";
+import ArrowRD from "../ArrowRD";
 
 const HomepageCard = (props) => {
     return (
         <div className="flex flex-col gap-2">
             {/* BELOVED */}
             {/* ARROW */}
-            <div className="pl-2">
-            <svg xmlns="http://www.w3.org/2000/svg" width="90" height="90" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-down-right"><line x1="7" y1="7" x2="17" y2="17"></line><polyline points="17 7 17 17 7 17"></polyline></svg>
-            </div>
+            <ArrowRD />
             <div className="flex flex-col justify-center gap-6">
                 <div className="flex flex-col">
                     <p className="text-xs text-darkSmoke text-dm"><i>/{ props.category },</i></p>

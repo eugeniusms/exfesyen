@@ -7,6 +7,7 @@ import Footer from './components/Footer/Footer';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import About from './pages/about';
 import Homepage from './pages/homepage';
+import CatalogPage from './pages/catalog';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
             <Routes>
               <Route path="/" element={<Homepage/>} />
               <Route path="/about" element={<About />} />
+              <Route path="/catalog" element={<CatalogPage/>} />
             </Routes>
           <Footer/>
         </div>

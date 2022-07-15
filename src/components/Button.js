@@ -1,4 +1,6 @@
 import React from "react";
+import { ArrowRightIcon } from "@heroicons/react/outline";
+import { FiArrowUpRight } from "react-icons/fi";
 
 const Button = (props) => {
     return (
@@ -23,6 +25,23 @@ const Button = (props) => {
                         { props.children }
                     </p>
                 </button>
+            }
+            { props.preset === "shopnow" &&
+                <div className="flex justify-center">
+                    <div className="flex justify-center border-b-1 border-t-1 w-5/6 py-3 items-center gap-2">
+                        <button><p className="text-xs tracking-wide font-black">SHOP NOW</p></button>
+                        <ArrowRightIcon className="w-4"/>
+                    </div>
+                </div>
+            }
+            { props.preset === "sortby" &&
+                <div className="flex justify-center px-6">
+                    <div className="flex justify-between border-b-1 border-t-1 py-3 items-center gap-2">
+                        <button><p className="text-xs tracking-wide font-black">{ props.children }</p></button>
+                        <div className="px-7"></div>
+                        <FiArrowUpRight className="w-4"/>
+                    </div>
+                </div>
             }
         </div>
     )

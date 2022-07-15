@@ -34,6 +34,7 @@ module.exports = {
       'oldLace': '#FEFBF4',
       'whiteSmoke': '#DEDEDE',
       'darkSmoke': '#C3C3C3',
+      'moreSmoke': '#B7B7B7',
       'black': '#000000'
     },
     fontFamily: {
